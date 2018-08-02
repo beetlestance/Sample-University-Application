@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">GJUSTEve</string>
+
+    /
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="nav_menu_suggestion"> Suggestions &amp; Feedback </string>
+    <string name="nav_menu_about">About</string>
+    <string name="nav_menu_sign_out">Sign Out</string>
+    <string name="nav_menu_student_portal">Student Portal</string>
+    <string name="nav_menu_announcement">Announcements</string>
+    <string name="nav_menu_home">Home</string>
+    <string name="nav_menu_calendar">Academic Calendar</string>
+    <string name="nav_menu_faculties">Faculties</string>
+
+    <string name="profilepic">profilepic</string>
+
+    <!-- Strings related to login -->
+    <string name="splashlogo">splash logo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+
+    <string name="register">REGISTER</string>
+    <string name="login">login</string>
+    <string name="email">E-Mail</string>
+    <string name="gjust_university">GJUST UNIVERSITY</string>
+    <string name="faculty_name">Faculty</string>
+    <string name="department_name">Department</string>
+    <string name="about">About</string>
+    <string name="about_app">GJUST for Android</string>
+    <string name="app_version">Version</string>
+    <string name="build_version">1.1.7</string>
+    <string name="app_description">GJUST is an Official App for Guru Jambheshwar University Of Science And Technology.</string>
+    <string name="beetel_stance">Development and Maintenance is under Team BeetleStance</string>
+    <string name="season_wallpaper">season_wallpaper</string>
+    <string name="new_thread">New Thread</string>
+    <string name="done">DONE</string>
+    <string name="feedback">Feedback</string>
+    <string name="title">Title</string>
+    <string name="upvote">upvote</string>
+    <string name="Thread">Thread</string>
+
+    <string name="NoAnnouncement">No Announcement!</string>
+    <string name="EventStarted">Event Started</string>
+    <string name="NoPastEvent">No Past Event</string>
+    <string name="all_events">Upcoming Events</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+    <string name="like">like</string>
+    <string name="main_image">main_image</string>
+    <string name="favourites">Favourites</string>
+
+    <string name="events_and_more">Events And More</string>
+    <string name="academic_calendar">Academic Calendar</string>
+    <string name="academic_performance">Academic Performance</string>
+    <string name="feedback_support">Feedback Support</string>
+    <string name="new_user_register_here">Let’s Get Started</string>
+    <string name="already_registered">ALREADY REGISTERED? LOGIN HERE</string>
+    <string name="roll_no">Roll No.</string>
+    <string name="events_description">Events And  Announcements</string>
+    <string name="calendar_description">Holidays And Academic Sessions</string>
+    <string name="academic_performance_description">Better Stats Of Your Academic Performance</string>
+    <string name="feedback_support_description">Suggest Your Ideas And Give Us Your Feedback</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="not_registered">NOT REGISTERED? REGISTER HERE</string>
+    <string name="teacher_id">Teacher Id</string>
+    <string name="father_name">Father Name</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="personal_details">Just In Case You Forget Password</string>
+    <string name="touch_to_refresh">Tap To Retry</string>
+    <string name="action_edit_profile">Edit Profile</string>
+    <string name="invalid_login_credential">Invalid Login Credential</string>
+
+    <string name="youAreNotUpdatedTitle">Update Available</string>
+    <string name="youAreNotUpdatedMessage">A new version of GJUSTEve is available. Please update to version\s</string>
+    <string name="youAreNotUpdatedMessage1">\s now</string>
+    <string name="update">Update</string>
+    <string name="explore">Let\'s Explore....</string>
+    <string name="to_do">To-Do</string>
+    <string name="ebooks_and_notes">Ebooks And Notes</string>
+    <string name="let_s_build_your_resume">Build your Resume</string>
+    <string name="your_assignment">Your Assignment</string>
+    <string name="twenty">20</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="repeat_new_password">Repeat New Password</string>
+    <string name="new_password">New Password</string>
+    <string name="save">Save</string>
+    <string name="current_password">Current Password</string>
+    <string name="venue">Venue</string>
+    <string name="genre">Genre</string>
+    <string name="academics">Academics</string>
+    <string name="year_of_joining">Year of Joining :</string>
+    <string name="personal">Personal</string>
+
+</resources>

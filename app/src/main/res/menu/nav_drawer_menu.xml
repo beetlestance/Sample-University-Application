@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:title="@string/nav_menu_home"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/nav_announcement"
+            android:title="@string/nav_menu_announcement"
+            android:icon="@drawable/ic_announcement"/>
+
+        <item
+            android:id="@+id/nav_calendar"
+            android:title="@string/nav_menu_calendar"
+            android:icon="@drawable/ic_calendar"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_faculties"
+            android:title="@string/nav_menu_faculties"
+            android:icon="@drawable/ic_faculties"/>
+        <item
+            android:id="@+id/nav_student_portal"
+            android:title="@string/nav_menu_student_portal"
+            android:icon="@drawable/ic_portal"/>
+        <item
+            android:id="@+id/nav_menu_suggestion"
+            android:title="@string/nav_menu_suggestion"
+            android:icon="@drawable/ic_feedback"/>
+</group>
+    <group android:checkableBehavior="single">
+
+
+    <item
+        android:id="@+id/nav_about"
+        android:title="@string/nav_menu_about"
+        android:icon="@drawable/ic_about"/>
+    <item
+        android:id="@+id/nav_sign_out"
+        android:title="@string/nav_menu_sign_out"
+        android:icon="@drawable/ic_log_out"/>
+</group>
+</menu>

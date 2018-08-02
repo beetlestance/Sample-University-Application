@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00AA8D</color>
+    <color name="colorPrimaryDark">#008975</color>
+    <color name="colorAccent">#00BF9A</color>
+    <color name="iconStarFilled">#EC407A</color>
+    <color name="iconStarEmpty">#7a7a7a</color>
+
+    <color name="pastEventLike">#ec1b68</color>
+    <color name="pastEventDislike">#868686</color>
+    <color name="pastEventLikeCount">#085e8c</color>
+
+    <color name="color_material_metaphor">#039be5</color>
+    <color name="color_material_bold">#EC407A</color>
+    <color name="color_material_motion">#6a1b9a</color>
+    <color name="color_custom_fragment_1">#E64A19</color>
+    <color name="color_White">#ffffff</color>
+    <color name="color_Black">#000</color>
+
+    <color name="color_dark_material_metaphor">#0277BD</color>
+    <color name="color_dark_material_bold">#D81B60</color>
+    <color name="color_dark_material_motion">#4A148C</color>
+    <color name="color_dark_custom_fragment_1">#BF360C</color>
+
+    <color name="color_material_purple">#673Ab7</color>
+    <color name="background">#F5F5F5</color>
+</resources>

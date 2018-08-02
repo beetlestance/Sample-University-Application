@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:attr/detailsElementBackground"
+    android:backgroundTint="#fafafa"
+    android:elevation="4dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/displayComments"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/iv_profile_pic"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/userName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/close_thread"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/ic_back"
+            android:elevation="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="42dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="42dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/Thread"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toRightOf="@+id/close_thread"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/Upvote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="47dp"
+            android:clickable="true"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/upvote"
+            android:textAllCaps="true"
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textColor="@android:color/white"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:focusable="true" />
+    </android.support.constraint.ConstraintLayout>
+
+
+    <com.example.aksha.gjusteve.helper.RoundedImageView
+        android:id="@+id/iv_profile_pic"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_person_24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_profile_pic"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/iv_profile_pic"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/displayDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/userName"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/userName"
+        android:textColor="@color/cardview_shadow_start_color"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/displayComments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/displayStatus"
+        android:layout_alignBottom="@+id/displayStatus"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/displayStatus"
+        android:drawableStart="@drawable/ic_like"
+        android:textColor="@color/cardview_shadow_start_color"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/displayStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/displayDate"
+        android:layout_alignBottom="@+id/displayDate"
+        android:layout_alignEnd="@+id/displayCategory"
+        android:textColor="@color/cardview_shadow_start_color"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/displayCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/iv_profile_pic"
+        android:layout_below="@+id/iv_profile_pic"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/dispalySuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@+id/displayCategory"
+        android:layout_below="@+id/displayCategory"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp" />
+
+
+
+</RelativeLayout>

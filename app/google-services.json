@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "767397106924",
+    "firebase_url": "https://gjusteve.firebaseio.com",
+    "project_id": "gjusteve",
+    "storage_bucket": "gjusteve.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767397106924:android:beb908551672827c",
+        "android_client_info": {
+          "package_name": "com.gjust"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767397106924-p5mgadmcoupc4tp7dr0d91ngb5ke91j4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gjust",
+            "certificate_hash": "dbfb6f17b78b101003300e67c1f618b2ffdb3cb5"
+          }
+        },
+        {
+          "client_id": "767397106924-fhap3aa1d9ri9fdl5houv161b0jbuh27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdW9cze4CDKuC8VqcotxhumCpaXnOF-Dw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767397106924-fhap3aa1d9ri9fdl5houv161b0jbuh27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
